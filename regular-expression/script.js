@@ -8,7 +8,6 @@ regexInputSat.addEventListener("input", function() {
     ? "Valid" : "Invalid, format email.";
 });
 
-// regex 2
 let regexInputSat2 = document.querySelector("#regexInputSat2");
 let validationTextSat2 = document.querySelector("#validation-text-Sat2");
 
@@ -19,7 +18,6 @@ regexInputSat2.addEventListener("input", function() {
     ? "Valid" : "Invalid, wrong date format";
 });
 
-// regex 3
 let regexInputSat3 = document.querySelector("#regexInputSat3");
 let validationTextSat3 = document.querySelector("#validation-text-Sat3");
 
@@ -30,7 +28,6 @@ regexInputSat3.addEventListener("input", function() {
     ? "Valid" : "Invalid, minimum 9 characters and maximum 15 characters allowed with only numbers.";
 });
 
-// regex 4
 let regexInputSat4 = document.querySelector("#regexInputSat4");
 let validationTextSat4 = document.querySelector("#validation-text-Sat4");
 
@@ -41,7 +38,6 @@ regexInputSat4.addEventListener("input", function() {
     ? "Valid" : "Invalid character required uppercase.";
 });
 
-// regex 5
 let regexInputSat5 = document.querySelector("#regexInputSat5");
 let validationTextSat5 = document.querySelector("#validation-text-Sat5");
 
@@ -52,8 +48,3 @@ regexInputSat5.addEventListener("input", function() {
     ? "Valid" : "Invalid, The verification code consists of 6 characters, and it must have at least one digit, one lowercase letter, and one uppercase letter.";
 });
 
-///^[^\d]{10,}$/
-//minimum 10 characters required
-
-//^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/
-//Invalid, minimum 8 characters required with at least one uppercase, one lowercase, and one digit//
